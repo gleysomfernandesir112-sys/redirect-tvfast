@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecionando...</title>
+  <meta http-equiv="refresh" content="0; url=https://tvfast.lat/">
+  <script>
+    var path = window.location.pathname;
+    var search = window.location.search;
+    var hash = window.location.hash;
+    var cleanBase = "https://tvfast.lat".replace(/\/+$/, '');
+    var target = cleanBase + (path.startsWith('/') ? path : '/' + path) + search + hash;
+    window.location.replace(target);
+  </script>
+</head>
+<body style="background:#0F1014;color:#92929F;font-family:system-ui,-apple-system,sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;">
+  <div style="text-align:center;">
+    <p style="font-size:16px;font-weight:600;color:#fff;">Redirecionando para o painel...</p>
+    <p style="font-size:13px;"><a href="https://tvfast.lat/" style="color:#009EF7;text-decoration:none;">Clique aqui se não for redirecionado automaticamente</a></p>
+  </div>
+</body>
+</html>
